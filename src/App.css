@@ -1,33 +1,42 @@
-.App {
+.logo {
+  width: 50%;
+  margin: 3rem auto;
+  display: block;
+}
+
+.form {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.form-header {
+  margin-bottom: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.restaurant-list {
 }
 
-.App-link {
-  color: #61dafb;
+.restaurant-card {
+  margin: 1rem auto;
+  display: block;
+  padding: 20px;
+  max-width: 20%;
+  /* border: 1px solid #000; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.restaurant-image {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pageButtons {
+  margin: 2rem auto;
+  display: block;
+  width: 30%;
+}
+
+.pageButton {
+  margin-right: 15px;
 }
