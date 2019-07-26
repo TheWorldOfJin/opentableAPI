@@ -33,7 +33,7 @@ const Restaurants = ({ getRestaurants, restaurants, city, count, loading }) => {
         {restaurants.map(restaurant => (
           <div className="restaurant-card col-md-3">
             <img
-              src="https://www.opentable.com/img/restimages/21448.jpg"
+              src={restaurant.image_url}
               className="card-img-top restaurant-image"
               alt="Restaurant"
             />
